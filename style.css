@@ -1,0 +1,53 @@
+body {
+    font-family: sans-serif;
+}
+
+header {
+    background-color: #32936F;
+    padding: 50px;
+}
+
+.main-1 {
+    text-decoration: none;
+    padding: 15px;
+    border: solid 2px black;
+    background-color: cyan;
+    color: blue;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+.pictures {
+    display: flex;
+    justify-content: center;
+}
+
+.pictures-image {
+    opacity: 0.5;
+}
+
+.pictures-image:hover {
+    opacity: 1;
+}
+
+.main-1:hover {
+    color: #9702A7;
+}
+
+.main-1:focus {
+    font-weight: bold;
+}
+
+.main-1:visited {
+    color: #FF8100;
+}
+
+.link-text:visited {
+    color: #9702A7; 
+}
+
+.link-text{
+    color: blue;
+}
